@@ -1,0 +1,274 @@
+[10-Mar-2024 15:11:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Ratchet\MessageComponentInterface" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:310
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\includes\plugin.php(2318): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\includes\plugin.php(663): plugin_sandbox_scrape('data_plugin/dat...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugins.php(58): activate_plugin('data_plugin/dat...', 'http://cyliaaud...', false)
+#3 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 310
+[10-Mar-2024 15:12:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Ratchet\MessageComponentInterface" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:310
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\includes\plugin.php(2318): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\includes\plugin.php(663): plugin_sandbox_scrape('data_plugin/dat...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugins.php(58): activate_plugin('data_plugin/dat...', 'http://cyliaaud...', false)
+#3 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 310
+[10-Mar-2024 15:28:10 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:18 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:18 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:19 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:19 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:20 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\update.php(16): require_once('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:20 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:20 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugin-install.php(16): require_once('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:20 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:21 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:21 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:21 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:28:21 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\WebSocket" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php:21
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(324): my_plugin_init('')
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(643): do_action('init')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#5 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#6 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#7 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#8 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\websocketplugin1.0\wsplugin.php on line 21
+[10-Mar-2024 15:57:31 UTC] PHP Warning:  fsockopen(): Unable to connect to 127.0.0.1:5000 (No connection could be made because the target machine actively refused it) in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 308
+[10-Mar-2024 16:01:14 UTC] PHP Warning:  fsockopen(): Unable to connect to 127.0.0.1:5000 (No connection could be made because the target machine actively refused it) in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 308
+[10-Mar-2024 16:01:15 UTC] PHP Warning:  fsockopen(): Unable to connect to 127.0.0.1:5000 (No connection could be made because the target machine actively refused it) in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 308
+[10-Mar-2024 16:01:17 UTC] PHP Warning:  fsockopen(): Unable to connect to 127.0.0.1:5000 (No connection could be made because the target machine actively refused it) in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 308
+[10-Mar-2024 16:11:05 UTC] PHP Warning:  fsockopen(): Unable to connect to 127.0.0.1:5000 (No connection could be made because the target machine actively refused it) in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 308
+[10-Mar-2024 16:11:07 UTC] PHP Warning:  fsockopen(): Unable to connect to 127.0.0.1:5000 (No connection could be made because the target machine actively refused it) in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 308
+[10-Mar-2024 16:23:15 UTC] PHP Parse error:  syntax error, unexpected floating-point number ".0", expecting ")" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 316
+[10-Mar-2024 16:23:16 UTC] PHP Parse error:  syntax error, unexpected floating-point number ".0", expecting ")" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 316
+[10-Mar-2024 16:25:20 UTC] PHP Parse error:  syntax error, unexpected floating-point number "127.0", expecting identifier or variable or "{" or "$" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 313
+[10-Mar-2024 16:25:20 UTC] PHP Parse error:  syntax error, unexpected floating-point number "127.0", expecting identifier or variable or "{" or "$" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 313
+[10-Mar-2024 16:26:05 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "127.0.0.1", expecting identifier or variable or "{" or "$" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 313
+[10-Mar-2024 16:26:05 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "127.0.0.1", expecting identifier or variable or "{" or "$" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 313
+[10-Mar-2024 16:26:27 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:314
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 314
+[10-Mar-2024 16:26:27 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:314
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 314
+[10-Mar-2024 16:27:53 UTC] PHP Parse error:  syntax error, unexpected floating-point number ".0", expecting ")" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 316
+[10-Mar-2024 16:27:53 UTC] PHP Parse error:  syntax error, unexpected floating-point number ".0", expecting ")" in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 316
+[10-Mar-2024 16:30:36 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
+[10-Mar-2024 16:30:39 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
+[10-Mar-2024 16:39:23 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
+[10-Mar-2024 16:39:24 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
+[10-Mar-2024 16:39:58 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
+[10-Mar-2024 16:39:59 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
+[10-Mar-2024 16:40:00 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
+[10-Mar-2024 16:40:00 UTC] PHP Fatal error:  Uncaught Error: Class "Ratchet\Client\Connector" not found in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php:318
+Stack trace:
+#0 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-settings.php(473): include_once()
+#1 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-config.php(103): require_once('C:\\Users\\chris\\...')
+#2 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-load.php(50): require_once('C:\\Users\\chris\\...')
+#3 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-blog-header.php(13): require_once('C:\\Users\\chris\\...')
+#4 C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\index.php(17): require('C:\\Users\\chris\\...')
+#5 {main}
+  thrown in C:\Users\chris\Local Sites\cyliaaudioidrevamp\app\public\wp-content\plugins\data_plugin\data_plugin.php on line 318
