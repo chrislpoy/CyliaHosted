@@ -1,2 +1,0 @@
-# CyliaHosted
-render hosted websit
